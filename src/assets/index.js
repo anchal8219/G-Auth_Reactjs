@@ -1,5 +1,6 @@
 import Rectangle from './Rectangle.png'
-import btn from './btn.png'
-import irame from './irame.ai.png'
+import Btn from './btn.png'
+import Irame from './irame.png'
+import Bgdesign from './bgdesign.png'
 
-export {Rectangle,btn,irame}
+export {Rectangle,Btn,Irame,Bgdesign}

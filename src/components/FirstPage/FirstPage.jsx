@@ -1,33 +1,42 @@
 import React from "react";
-import "./FirstPage.css";
-// import { FcGoogle } from "react-icons/fc";
-import logo from "../";
+import "./first.css";
 
-const FirstPage = () => {
+// import Design from "../asset/bgdesign.png"
+
+const first = () => {
   return (
-    <div className="first">
-      <div>
-        <div className="f-first">
-          <p className="f-para">lets get started</p>
-          {/* <img src=""></img> */}
-          {/* <FcGoogle /> */}
-          {/* <button className="">signin</button> */}
-          <button type="button" class="login-with-google-btn">
-            Sign in with Google
-          </button>
+    <>
+      {/* <Logo/> */}
+
+      <div className="parent">
+        <div className="firstChild">
+          <div className="firstChildComponent">
+            <p className="firstChildPara"> Let’s get started</p>
+            <button type="button" class="login-with-google-btn abc">
+              Sign in with Google
+            </button>
+          </div>
+        </div>
+
+        <div className="secondChild">
+          <div className="logo">
+            {/* irame.ai  */}
+            {/* IMPORT LOGO */}i{/* <img src="../asset/logo1.png" alt="" /> */}
+            {/* <Logo/> */}
+          </div>
+
+          <div className="secondChildpara">
+            <p className="para">
+              {" "}
+              AI that excels in understanding your business dynamics!
+            </p>
+
+            <hr />
+          </div>
         </div>
       </div>
-      <div className="f-second">
-        <div className="logo">
-          {/* <FcGoogle /> */}
-          <p className="f-second-para">irame</p>
-        </div>
-        <div className="content">
-          <div className="second-content">ai that excels</div>
-        </div>
-      </div>
-    </div>
+    </>
   );
 };
 
-export default FirstPage;
+export default first;
