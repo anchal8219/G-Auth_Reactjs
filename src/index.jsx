@@ -1,22 +1,32 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-// import { GoogleOAuthProvider } from '@react-oauth/google';
-import {BrowserRouter} from "react-router-dom"
+import {
+  createBrowserRouter,
+  createRoutesFromElements,
+  RouterProvider,
+  Routes,
+  Route,
+  BrowserRouter
+} from "react-router-dom";
 
+// import { FirstPage, SecondPage } from './components';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-  {/* wrap entire app inside this */}
-  {/* <GoogleOAuthProvider clientId="85088877735-cit6qfimhdql8k7tg1632s30dd6jjoha.apps.googleusercontent.com"> */}
+// const router = createBrowserRouter(
+//   createRoutesFromElements(
+//     <Routes>
+//       <Route path="/first" element={<FirstPage />} />
+//       <Route path="/second" element={<SecondPage />} />
+//     </Routes>
+//   )
+// );
+
+ReactDOM.createRoot(document.getElementById("root")).render(
   <BrowserRouter>
-  <App />
+    <App />
   </BrowserRouter>
-  
-  {/* </GoogleOAuthProvider>; */}
-  </React.StrictMode>
 );
+
 
 

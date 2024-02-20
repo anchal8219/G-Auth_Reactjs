@@ -14,7 +14,7 @@
     justify-content: center;
     margin-top: 10rem;
     margin-right: 12rem;
-    height: 30rem;
+    height: 40rem;
     /* width: 70%; */
     
 }
@@ -29,6 +29,7 @@
 
 .firstChildComponent{
     margin: 10rem 2rem;
+    
 }
 
 .firstChildPara{
@@ -91,7 +92,7 @@
 
 .secondChild{
     background: #076EFF;
-    background-image: url("../asset/bgdesign.png");
+    background-image: url("../../assets/bgdesign.png");
 }
 .logo{
     /* width: 159px;
@@ -101,7 +102,7 @@ left: 889px; */
 /* color:  #FFFFFF;*/
  margin: 2rem 2rem; 
 
-background-image: url("../asset/logo1.png"); 
+background-image: url("../../assets/irame.png"); 
 background-repeat: no-repeat;
 
 }
