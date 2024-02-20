@@ -29,39 +29,39 @@
 
 .firstChildComponent{
     margin: 10rem 2rem;
-    
 }
 
 .firstChildPara{
-    margin-left: 2rem;
-    width: 268px;
-    height: 60px;
-    top: 422px;
-    left: 124px;
+    /* margin-left: 2rem; */
+    /* width: 268px; */
+    /* height: 60px; */
+    /* top: 422px; */
+    /* left: 124px; */
 
-    font-family: Poppins;
-    font-size: 33px;
-    font-weight: 900;
+    /* font-family: Poppins; */
+    font-size: 28px;
+    /* font-weight: 900;
     line-height: 60px;
     letter-spacing: 0em;
-    text-align: left;
+    text-align: left; */
 
     font-family: Abyssinica SIL;
     /* font-size: 36px; */
     font-weight: 400;
-    line-height: 60px;
+    line-height: 80px;
     letter-spacing: 0em;
     text-align: left;
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
+    margin-top: 10rem;
 
 
 }
 
-.login-with-google-btn {
+/* .login-with-google-btn {
     transition: background-color .3s, box-shadow .3s;
       
     padding: 12px 16px 12px 42px;
-    border: 1px solid black;
+    border: 20px solid black;
     border-radius: 10px;
     box-shadow: 0 -1px 0 rgba(0, 0, 0, .04), 0 1px 1px rgba(0, 0, 0, .25);
     
@@ -83,28 +83,29 @@
       background-color: #eeeeee;
     }
 
-}
+} */
 
-.abc{
+/* .abc{
     margin-left: 30px;
     
-}
+} */
 
 .secondChild{
     background: #076EFF;
     background-image: url("../../assets/bgdesign.png");
 }
-.logo{
-    /* width: 159px;
-height: 19px;
-top: 80px;
-left: 889px; */
-/* color:  #FFFFFF;*/
+/* .logo{
+
  margin: 2rem 2rem; 
 
 background-image: url("../../assets/irame.png"); 
 background-repeat: no-repeat;
 
+} */
+
+.logo{
+    margin-top: 70px;
+    margin-left: 70px;
 }
 
 .secondChildpara{
@@ -113,8 +114,9 @@ height: 151px;
 top: 464px;
 left: 889px; */
 
-width: 80%;
-margin: 8rem 2rem;
+width: 55%;
+margin: 11rem 0rem 0rem 5rem;
+
 
 }
 .para{
@@ -126,7 +128,7 @@ top: 464px;
 left: 889px;
 border: 1px;
 font-family: Poppins;
-font-size: 35px;
+font-size: 30px;
 /* font-weight: 600; */
 line-height: 60px;
 letter-spacing: 0em;
@@ -136,6 +138,9 @@ text-align: left;
 
 }
 
-hr{
-    size: 30%;
-}
+.horizontal-line {
+    width: 100%; 
+    border: none; 
+    border-top: 3px solid white; 
+  }
+  

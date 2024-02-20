@@ -6,16 +6,11 @@
 }
 
 .parent{
-    /* background-color: bisque; */
     display: flex;
-    
-   
-    /* align-items: center; */
     justify-content: center;
-    margin-top: 10rem;
+    margin-top: 8rem;
     margin-right: 12rem;
     height: 40rem;
-    /* width: 70%; */
     
 }
 
@@ -23,13 +18,27 @@
    
     background: whitesmoke;
     width: 30%;
-    margin-left: 20rem;
+    margin-left: 10rem;
 
 }
 
 .firstChildComponent{
-    margin: 10rem 2rem;
+    margin: 7rem 5rem ;
     
+}
+
+.caption{
+    
+  font-family: Abyssinica SIL;
+  font-size: 28px;
+  text-align: center;
+  /* margin: 1rem 1rem 1rem 1rem; */
+  /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
+}
+
+.logo{
+    margin-top: 70px;
+    margin-left: 70px;
 }
 
 .form {
@@ -39,4 +48,49 @@
     /* border: 1px solid #ccc; */
     /* border-radius: 5px; */
   }
+
+.form form {
+    display: flex;
+    flex-direction: column;
+}  
   
+.form label {
+    margin-bottom: 0px;
+}
+
+.form input[type="text"] {
+    width: 91%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #121212;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    color: black;
+    position: relative;
+}
+
+.form input[type="submit"]::after {
+    content: "->";
+    /* background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23FFF"><path d="M0 0h24v24H0z" fill="none"/><path d="M18.25 12L8.75 3v9H3v3h5.75v9z"/></svg>'); */
+    background-size: contain;
+    width: 20px; /* Adjust size of the arrow */
+    height: 20px; /* Adjust size of the arrow */
+    position: absolute;
+    top: 50%;
+    right: 10px; /* Adjust the position of the arrow */
+    transform: translateY(-50%);
+}
+
+.form input[type="submit"]:hover {
+    background-color: #0056b3;
+}

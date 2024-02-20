@@ -1,5 +1,6 @@
-import React, { useState , useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import "./SecondPage.css";
+import Irame from '../../assets/irame.png'
 
 const SecondPage = () => {
   const [username, setUsername] = useState("");
@@ -24,11 +25,11 @@ const SecondPage = () => {
       <div className="parent">
         <div className="firstChild">
           <div className="firstChildComponent">
-            <h1>Brace for the magic!!!!</h1>
+            <h1 className="caption">Brace for the magic!!!!</h1>
             <div className="form">
-            <form onSubmit={handleSubmit}>
+              <form onSubmit={handleSubmit}>
                 <label>
-                  Your Name:
+                  {/* Your Name: */}
                   <input
                     type="text"
                     name="name"
@@ -40,18 +41,17 @@ const SecondPage = () => {
                   {/* Your Email: */}
                   <input type="text" name="email" />
                 </label>
-                <input type="submit" value="Continue->" />
+                <input type="submit" value="Continue-->" />
               </form>
+            </div>
           </div>
-          </div>
-          
         </div>
         <div className="secondChild">
           <div className="logo">
             {/* irame.ai  */}
             {/* IMPORT LOGO */}
-            {/* <img src="../asset/logo1.png" alt="" /> */}
-            {/* <Logo/> */}
+            <img src={Irame} alt="" />
+            {/* <Bgdesign/> */}
           </div>
 
           <div className="secondChildpara">
@@ -60,7 +60,7 @@ const SecondPage = () => {
               AI that excels in understanding your business dynamics!
             </p>
 
-            <hr />
+            <hr class="horizontal-line"/>
           </div>
         </div>
       </div>

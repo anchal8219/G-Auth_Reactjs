@@ -2,6 +2,7 @@ import React, { useState , useEffect} from "react";
 import "./FirstPage.css";
 import { GoogleOAuthProvider, GoogleLogin } from "@react-oauth/google";
 import {jwtDecode} from "jwt-decode";
+import Irame from '../../assets/irame.png'
 // import { FirstPage } from "..";
 
 // import Design from "../asset/bgdesign.png"
@@ -46,23 +47,24 @@ const FirstPage = () => {
         <div className="firstChild">
           <div className="firstChildComponent">
             <p className="firstChildPara"> Let’s get started</p>
-            <GoogleOAuthProvider clientId="85088877735-cit6qfimhdql8k7tg1632s30dd6jjoha.apps.googleusercontent.com">
+            <GoogleOAuthProvider clientId="">
               <GoogleLogin onSuccess={handleSuccess} onError={handleError}>
                 Sign in with Google
               </GoogleLogin>
             </GoogleOAuthProvider>
-            {/* <button type="button" class="login-with-google-btn abc">
-              Sign in with Google */}
-            {/* </button> */}
+                            {/* <button type="button" class="login-with-google-btn abc">
+              Continue with Google
+            </button> */}
           </div>
         </div>
 
         <div className="secondChild">
           <div className="logo">
+          {/* <img src="../../assets/irame.png" alt="Logo" /> */}
             {/* irame.ai  */}
             {/* IMPORT LOGO */}
-            {/* <img src="../asset/logo1.png" alt="" /> */}
-            {/* <Logo/> */}
+            <img src={Irame} alt="" />
+            {/* <Irame/> */}
           </div>
 
           <div className="secondChildpara">
@@ -71,7 +73,7 @@ const FirstPage = () => {
               AI that excels in understanding your business dynamics!
             </p>
 
-            <hr />
+            <hr class="horizontal-line" />
           </div>
         </div>
       </div>
@@ -80,3 +82,7 @@ const FirstPage = () => {
 };
 
 export default FirstPage;
+
+
+
+// 85088877735-cit6qfimhdql8k7tg1632s30dd6jjoha.apps.googleusercontent.com
