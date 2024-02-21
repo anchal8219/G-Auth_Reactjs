@@ -6,16 +6,11 @@
 }
 
 .parent{
-    /* background-color: bisque; */
     display: flex;
-    
-   
-    /* align-items: center; */
     justify-content: center;
     margin-top: 10rem;
     margin-right: 12rem;
     height: 40rem;
-    /* width: 70%; */
     
 }
 
@@ -32,26 +27,13 @@
 }
 
 .firstChildPara{
-    /* margin-left: 2rem; */
-    /* width: 268px; */
-    /* height: 60px; */
-    /* top: 422px; */
-    /* left: 124px; */
-
-    /* font-family: Poppins; */
     font-size: 28px;
-    /* font-weight: 900;
-    line-height: 60px;
-    letter-spacing: 0em;
-    text-align: left; */
 
     font-family: Abyssinica SIL;
-    /* font-size: 36px; */
     font-weight: 400;
     line-height: 80px;
     letter-spacing: 0em;
     text-align: left;
-    /* margin-bottom: 2rem; */
     margin-top: 10rem;
 
 
@@ -109,14 +91,8 @@ background-repeat: no-repeat;
 }
 
 .secondChildpara{
-    /* width: 578px;
-height: 151px;
-top: 464px;
-left: 889px; */
-
 width: 55%;
 margin: 11rem 0rem 0rem 5rem;
-
 
 }
 .para{
@@ -129,7 +105,6 @@ left: 889px;
 border: 1px;
 font-family: Poppins;
 font-size: 30px;
-/* font-weight: 600; */
 line-height: 60px;
 letter-spacing: 0em;
 text-align: left;
